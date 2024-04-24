@@ -1,0 +1,49 @@
+*Installation apache 2
+	
+	-Téléchargé le httpd -2.4.59.tar.gz
+	
+	-décompresser et extracter le fichier httpd -2.4.59.tar.gz avec le commande
+	($ :tar -xvf ‘httpd-2.4.59.tar.gz’)
+	
+	- apres entrer dans le fichier  httpd -2.4.59.tar.gz
+	
+	-./config
+	-Télécharger :
+		
+		$ :sudo apt install build-essential
+		$ :sudo apt install libssl-dev 
+		$ :sudo apt install libexpat-dev 
+		$ :sudo apt install libpcre3-dev 
+		$ :sudo apt install libapr1-dev
+		$ :sudo apt install libaprutil1-dev
+		
+-apres 
+		make
+		make install 
+
+installation mysql
+	
+	-Téléchargé le mysql.tar.gz
+	
+	-décompresser et extracter le fichier mysql -2.4.59.tar.gz avec le commande
+	($ :tar -xvf  mysql-2.4.59.tar.gz’)
+	
+	- apres entrer dans le fichier  mysql -2.4.59.tar.gz
+	
+	-$ :sudo apt install bootstrap
+	-$ :cd build
+	-$ :make
+	-$ :sudo make install
+
+installation php
+	
+	-Téléchargé le php.tar.gz
+	
+	-décompresser et extracter le fichier php.tar.gz avec le commande
+	($:tar -xvf ‘php.tar.gz’)
+	
+	-$:cd php
+	-$ :./configure
+	-$ :make
+	-$ :make install 
+	
